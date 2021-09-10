@@ -34,3 +34,8 @@
   font-family: inherit;
   font-size: 20px;
 }
+
+.opening__box button:hover {
+  cursor: pointer;
+  filter: brightness(0.8);
+}
