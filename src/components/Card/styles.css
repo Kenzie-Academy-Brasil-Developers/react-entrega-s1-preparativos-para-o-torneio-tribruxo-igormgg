@@ -1,0 +1,67 @@
+:root {
+  --gryffindor-color: #ae0001;
+  --slytherin-color: #2a623d;
+  --ravenclaw-color: #222f5b;
+  --hufflepuff-color: #ffdb00;
+}
+
+.all_cards {
+  width: calc(80% / 3);
+  margin-bottom: 50px;
+}
+
+.all_cards div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.all_cards img {
+  width: 100%;
+  height: 350px;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+
+.all_cards p {
+  color: white;
+  text-shadow: 1px 1px 1px gray;
+  margin-bottom: 0px;
+}
+
+.gryffindor_card img {
+  border: 3px solid var(--gryffindor-color);
+  border-radius: 8px;
+}
+
+.slytherin_card img {
+  border: 3px solid var(--slytherin-color);
+  border-radius: 8px;
+}
+
+.ravenclaw_card img {
+  border: 3px solid var(--ravenclaw-color);
+  border-radius: 8px;
+}
+
+.hufflepuff_card img {
+  border: 3px solid var(--hufflepuff-color);
+  border-radius: 8px;
+}
+
+#griffindor_houseName {
+  color: var(--gryffindor-color);
+}
+
+#slytherin_houseName {
+  color: var(--slytherin-color);
+}
+
+#ravenclaw_houseName {
+  color: var(--ravenclaw-color);
+}
+
+#hufflepuff_houseName {
+  color: var(--hufflepuff-color);
+}
